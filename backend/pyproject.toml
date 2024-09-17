@@ -1,0 +1,21 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12, <3.13"
+dependencies = [
+    "django-filter==23.5",
+    "django>=4.2.9,<4.3",
+    "djangorestframework>=3.14,<3.15",
+    "djoser==2.2.2",
+    "drf-extra-fields==3.7.0",
+    "gunicorn==20.1.0",
+    "jsonschema==4.21.1",
+    "pillow==10.2.0",
+    "psycopg2-binary==2.9.9",
+    "pytest-django==4.4.0",
+    "pytest-lazy-fixture==0.6.3",
+    "pytest-pythonpath==0.7.3",
+    "pytest==6.2.4",
+]
