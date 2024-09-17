@@ -1,0 +1,13 @@
+version: '3.4'
+name: foodgram-project-debug_db
+volumes:
+  db_data:
+  
+services:
+  foodgram_db:
+    image: postgres:13
+    env_file: .env
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
